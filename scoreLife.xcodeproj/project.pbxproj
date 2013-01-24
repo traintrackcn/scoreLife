@@ -7,101 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4AC753E016B0EC3A003EE5D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC753DF16B0EC3A003EE5D4 /* UIKit.framework */; };
-		4AC753E216B0EC3A003EE5D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC753E116B0EC3A003EE5D4 /* Foundation.framework */; };
-		4AC753E416B0EC3A003EE5D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC753E316B0EC3A003EE5D4 /* CoreGraphics.framework */; };
-		4AC753E616B0EC3A003EE5D4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC753E516B0EC3A003EE5D4 /* CoreData.framework */; };
-		4AC753EC16B0EC3A003EE5D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AC753EA16B0EC3A003EE5D4 /* InfoPlist.strings */; };
-		4AC753EE16B0EC3A003EE5D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC753ED16B0EC3A003EE5D4 /* main.m */; };
-		4AC753F216B0EC3A003EE5D4 /* LTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC753F116B0EC3A003EE5D4 /* LTAppDelegate.m */; };
-		4AC753F416B0EC3A003EE5D4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC753F316B0EC3A003EE5D4 /* Default.png */; };
-		4AC753F616B0EC3A003EE5D4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC753F516B0EC3A003EE5D4 /* Default@2x.png */; };
-		4AC753F816B0EC3A003EE5D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC753F716B0EC3A003EE5D4 /* Default-568h@2x.png */; };
-		4AC753FB16B0EC3A003EE5D4 /* scoreLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4AC753F916B0EC3A003EE5D4 /* scoreLife.xcdatamodeld */; };
+		4AC7541C16B0ED93003EE5D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC7541B16B0ED93003EE5D4 /* UIKit.framework */; };
+		4AC7541E16B0ED93003EE5D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC7541D16B0ED93003EE5D4 /* Foundation.framework */; };
+		4AC7542016B0ED93003EE5D4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC7541F16B0ED93003EE5D4 /* CoreGraphics.framework */; };
+		4AC7542216B0ED93003EE5D4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC7542116B0ED93003EE5D4 /* CoreData.framework */; };
+		4AC7542816B0ED93003EE5D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7542616B0ED93003EE5D4 /* InfoPlist.strings */; };
+		4AC7542A16B0ED93003EE5D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC7542916B0ED93003EE5D4 /* main.m */; };
+		4AC7542E16B0ED93003EE5D4 /* SLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AC7542D16B0ED93003EE5D4 /* SLAppDelegate.m */; };
+		4AC7543016B0ED93003EE5D4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7542F16B0ED93003EE5D4 /* Default.png */; };
+		4AC7543216B0ED93003EE5D4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7543116B0ED93003EE5D4 /* Default@2x.png */; };
+		4AC7543416B0ED93003EE5D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7543316B0ED93003EE5D4 /* Default-568h@2x.png */; };
+		4AC7543716B0ED93003EE5D4 /* scoreLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4AC7543516B0ED93003EE5D4 /* scoreLife.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4AC753DB16B0EC3A003EE5D4 /* scoreLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scoreLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AC753DF16B0EC3A003EE5D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		4AC753E116B0EC3A003EE5D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		4AC753E316B0EC3A003EE5D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4AC753E516B0EC3A003EE5D4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		4AC753E916B0EC3A003EE5D4 /* scoreLife-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "scoreLife-Info.plist"; sourceTree = "<group>"; };
-		4AC753EB16B0EC3A003EE5D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4AC753ED16B0EC3A003EE5D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4AC753EF16B0EC3A003EE5D4 /* scoreLife-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "scoreLife-Prefix.pch"; sourceTree = "<group>"; };
-		4AC753F016B0EC3A003EE5D4 /* LTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTAppDelegate.h; sourceTree = "<group>"; };
-		4AC753F116B0EC3A003EE5D4 /* LTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTAppDelegate.m; sourceTree = "<group>"; };
-		4AC753F316B0EC3A003EE5D4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		4AC753F516B0EC3A003EE5D4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		4AC753F716B0EC3A003EE5D4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		4AC753FA16B0EC3A003EE5D4 /* scoreLife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = scoreLife.xcdatamodel; sourceTree = "<group>"; };
+		4AC7541716B0ED93003EE5D4 /* scoreLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scoreLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AC7541B16B0ED93003EE5D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4AC7541D16B0ED93003EE5D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4AC7541F16B0ED93003EE5D4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4AC7542116B0ED93003EE5D4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4AC7542516B0ED93003EE5D4 /* scoreLife-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "scoreLife-Info.plist"; sourceTree = "<group>"; };
+		4AC7542716B0ED93003EE5D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4AC7542916B0ED93003EE5D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4AC7542B16B0ED93003EE5D4 /* scoreLife-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "scoreLife-Prefix.pch"; sourceTree = "<group>"; };
+		4AC7542C16B0ED93003EE5D4 /* SLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLAppDelegate.h; sourceTree = "<group>"; };
+		4AC7542D16B0ED93003EE5D4 /* SLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLAppDelegate.m; sourceTree = "<group>"; };
+		4AC7542F16B0ED93003EE5D4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4AC7543116B0ED93003EE5D4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4AC7543316B0ED93003EE5D4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4AC7543616B0ED93003EE5D4 /* scoreLife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = scoreLife.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4AC753D816B0EC3A003EE5D4 /* Frameworks */ = {
+		4AC7541416B0ED93003EE5D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AC753E016B0EC3A003EE5D4 /* UIKit.framework in Frameworks */,
-				4AC753E216B0EC3A003EE5D4 /* Foundation.framework in Frameworks */,
-				4AC753E416B0EC3A003EE5D4 /* CoreGraphics.framework in Frameworks */,
-				4AC753E616B0EC3A003EE5D4 /* CoreData.framework in Frameworks */,
+				4AC7541C16B0ED93003EE5D4 /* UIKit.framework in Frameworks */,
+				4AC7541E16B0ED93003EE5D4 /* Foundation.framework in Frameworks */,
+				4AC7542016B0ED93003EE5D4 /* CoreGraphics.framework in Frameworks */,
+				4AC7542216B0ED93003EE5D4 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4AC753D016B0EC3A003EE5D4 = {
+		4AC7540C16B0ED93003EE5D4 = {
 			isa = PBXGroup;
 			children = (
-				4AC753E716B0EC3A003EE5D4 /* scoreLife */,
-				4AC753DE16B0EC3A003EE5D4 /* Frameworks */,
-				4AC753DC16B0EC3A003EE5D4 /* Products */,
+				4AC7542316B0ED93003EE5D4 /* scoreLife */,
+				4AC7541A16B0ED93003EE5D4 /* Frameworks */,
+				4AC7541816B0ED93003EE5D4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4AC753DC16B0EC3A003EE5D4 /* Products */ = {
+		4AC7541816B0ED93003EE5D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4AC753DB16B0EC3A003EE5D4 /* scoreLife.app */,
+				4AC7541716B0ED93003EE5D4 /* scoreLife.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4AC753DE16B0EC3A003EE5D4 /* Frameworks */ = {
+		4AC7541A16B0ED93003EE5D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4AC753DF16B0EC3A003EE5D4 /* UIKit.framework */,
-				4AC753E116B0EC3A003EE5D4 /* Foundation.framework */,
-				4AC753E316B0EC3A003EE5D4 /* CoreGraphics.framework */,
-				4AC753E516B0EC3A003EE5D4 /* CoreData.framework */,
+				4AC7541B16B0ED93003EE5D4 /* UIKit.framework */,
+				4AC7541D16B0ED93003EE5D4 /* Foundation.framework */,
+				4AC7541F16B0ED93003EE5D4 /* CoreGraphics.framework */,
+				4AC7542116B0ED93003EE5D4 /* CoreData.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4AC753E716B0EC3A003EE5D4 /* scoreLife */ = {
+		4AC7542316B0ED93003EE5D4 /* scoreLife */ = {
 			isa = PBXGroup;
 			children = (
-				4AC753F016B0EC3A003EE5D4 /* LTAppDelegate.h */,
-				4AC753F116B0EC3A003EE5D4 /* LTAppDelegate.m */,
-				4AC753F916B0EC3A003EE5D4 /* scoreLife.xcdatamodeld */,
-				4AC753E816B0EC3A003EE5D4 /* Supporting Files */,
+				4AC7542C16B0ED93003EE5D4 /* SLAppDelegate.h */,
+				4AC7542D16B0ED93003EE5D4 /* SLAppDelegate.m */,
+				4AC7543516B0ED93003EE5D4 /* scoreLife.xcdatamodeld */,
+				4AC7542416B0ED93003EE5D4 /* Supporting Files */,
 			);
 			path = scoreLife;
 			sourceTree = "<group>";
 		};
-		4AC753E816B0EC3A003EE5D4 /* Supporting Files */ = {
+		4AC7542416B0ED93003EE5D4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4AC753E916B0EC3A003EE5D4 /* scoreLife-Info.plist */,
-				4AC753EA16B0EC3A003EE5D4 /* InfoPlist.strings */,
-				4AC753ED16B0EC3A003EE5D4 /* main.m */,
-				4AC753EF16B0EC3A003EE5D4 /* scoreLife-Prefix.pch */,
-				4AC753F316B0EC3A003EE5D4 /* Default.png */,
-				4AC753F516B0EC3A003EE5D4 /* Default@2x.png */,
-				4AC753F716B0EC3A003EE5D4 /* Default-568h@2x.png */,
+				4AC7542516B0ED93003EE5D4 /* scoreLife-Info.plist */,
+				4AC7542616B0ED93003EE5D4 /* InfoPlist.strings */,
+				4AC7542916B0ED93003EE5D4 /* main.m */,
+				4AC7542B16B0ED93003EE5D4 /* scoreLife-Prefix.pch */,
+				4AC7542F16B0ED93003EE5D4 /* Default.png */,
+				4AC7543116B0ED93003EE5D4 /* Default@2x.png */,
+				4AC7543316B0ED93003EE5D4 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -109,13 +109,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4AC753DA16B0EC3A003EE5D4 /* scoreLife */ = {
+		4AC7541616B0ED93003EE5D4 /* scoreLife */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AC753FE16B0EC3A003EE5D4 /* Build configuration list for PBXNativeTarget "scoreLife" */;
+			buildConfigurationList = 4AC7543A16B0ED93003EE5D4 /* Build configuration list for PBXNativeTarget "scoreLife" */;
 			buildPhases = (
-				4AC753D716B0EC3A003EE5D4 /* Sources */,
-				4AC753D816B0EC3A003EE5D4 /* Frameworks */,
-				4AC753D916B0EC3A003EE5D4 /* Resources */,
+				4AC7541316B0ED93003EE5D4 /* Sources */,
+				4AC7541416B0ED93003EE5D4 /* Frameworks */,
+				4AC7541516B0ED93003EE5D4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -123,68 +123,68 @@
 			);
 			name = scoreLife;
 			productName = scoreLife;
-			productReference = 4AC753DB16B0EC3A003EE5D4 /* scoreLife.app */;
+			productReference = 4AC7541716B0ED93003EE5D4 /* scoreLife.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4AC753D216B0EC3A003EE5D4 /* Project object */ = {
+		4AC7540E16B0ED93003EE5D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = LT;
+				CLASSPREFIX = SL;
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = lt;
 			};
-			buildConfigurationList = 4AC753D516B0EC3A003EE5D4 /* Build configuration list for PBXProject "scoreLife" */;
+			buildConfigurationList = 4AC7541116B0ED93003EE5D4 /* Build configuration list for PBXProject "scoreLife" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4AC753D016B0EC3A003EE5D4;
-			productRefGroup = 4AC753DC16B0EC3A003EE5D4 /* Products */;
+			mainGroup = 4AC7540C16B0ED93003EE5D4;
+			productRefGroup = 4AC7541816B0ED93003EE5D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4AC753DA16B0EC3A003EE5D4 /* scoreLife */,
+				4AC7541616B0ED93003EE5D4 /* scoreLife */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4AC753D916B0EC3A003EE5D4 /* Resources */ = {
+		4AC7541516B0ED93003EE5D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AC753EC16B0EC3A003EE5D4 /* InfoPlist.strings in Resources */,
-				4AC753F416B0EC3A003EE5D4 /* Default.png in Resources */,
-				4AC753F616B0EC3A003EE5D4 /* Default@2x.png in Resources */,
-				4AC753F816B0EC3A003EE5D4 /* Default-568h@2x.png in Resources */,
+				4AC7542816B0ED93003EE5D4 /* InfoPlist.strings in Resources */,
+				4AC7543016B0ED93003EE5D4 /* Default.png in Resources */,
+				4AC7543216B0ED93003EE5D4 /* Default@2x.png in Resources */,
+				4AC7543416B0ED93003EE5D4 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4AC753D716B0EC3A003EE5D4 /* Sources */ = {
+		4AC7541316B0ED93003EE5D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AC753EE16B0EC3A003EE5D4 /* main.m in Sources */,
-				4AC753F216B0EC3A003EE5D4 /* LTAppDelegate.m in Sources */,
-				4AC753FB16B0EC3A003EE5D4 /* scoreLife.xcdatamodeld in Sources */,
+				4AC7542A16B0ED93003EE5D4 /* main.m in Sources */,
+				4AC7542E16B0ED93003EE5D4 /* SLAppDelegate.m in Sources */,
+				4AC7543716B0ED93003EE5D4 /* scoreLife.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4AC753EA16B0EC3A003EE5D4 /* InfoPlist.strings */ = {
+		4AC7542616B0ED93003EE5D4 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4AC753EB16B0EC3A003EE5D4 /* en */,
+				4AC7542716B0ED93003EE5D4 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -192,7 +192,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4AC753FC16B0EC3A003EE5D4 /* Debug */ = {
+		4AC7543816B0ED93003EE5D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -221,7 +221,7 @@
 			};
 			name = Debug;
 		};
-		4AC753FD16B0EC3A003EE5D4 /* Release */ = {
+		4AC7543916B0ED93003EE5D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -244,7 +244,7 @@
 			};
 			name = Release;
 		};
-		4AC753FF16B0EC3A003EE5D4 /* Debug */ = {
+		4AC7543B16B0ED93003EE5D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -255,7 +255,7 @@
 			};
 			name = Debug;
 		};
-		4AC7540016B0EC3A003EE5D4 /* Release */ = {
+		4AC7543C16B0ED93003EE5D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -269,37 +269,37 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4AC753D516B0EC3A003EE5D4 /* Build configuration list for PBXProject "scoreLife" */ = {
+		4AC7541116B0ED93003EE5D4 /* Build configuration list for PBXProject "scoreLife" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4AC753FC16B0EC3A003EE5D4 /* Debug */,
-				4AC753FD16B0EC3A003EE5D4 /* Release */,
+				4AC7543816B0ED93003EE5D4 /* Debug */,
+				4AC7543916B0ED93003EE5D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AC753FE16B0EC3A003EE5D4 /* Build configuration list for PBXNativeTarget "scoreLife" */ = {
+		4AC7543A16B0ED93003EE5D4 /* Build configuration list for PBXNativeTarget "scoreLife" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4AC753FF16B0EC3A003EE5D4 /* Debug */,
-				4AC7540016B0EC3A003EE5D4 /* Release */,
+				4AC7543B16B0ED93003EE5D4 /* Debug */,
+				4AC7543C16B0ED93003EE5D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		4AC753F916B0EC3A003EE5D4 /* scoreLife.xcdatamodeld */ = {
+		4AC7543516B0ED93003EE5D4 /* scoreLife.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				4AC753FA16B0EC3A003EE5D4 /* scoreLife.xcdatamodel */,
+				4AC7543616B0ED93003EE5D4 /* scoreLife.xcdatamodel */,
 			);
-			currentVersion = 4AC753FA16B0EC3A003EE5D4 /* scoreLife.xcdatamodel */;
+			currentVersion = 4AC7543616B0ED93003EE5D4 /* scoreLife.xcdatamodel */;
 			path = scoreLife.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 4AC753D216B0EC3A003EE5D4 /* Project object */;
+	rootObject = 4AC7540E16B0ED93003EE5D4 /* Project object */;
 }

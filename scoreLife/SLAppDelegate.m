@@ -1,14 +1,14 @@
 //
-//  LTAppDelegate.m
+//  SLAppDelegate.m
 //  scoreLife
 //
 //  Created by traintrackcn on 13-1-24.
 //  Copyright (c) 2013年 lt. All rights reserved.
 //
 
-#import "LTAppDelegate.h"
+#import "SLAppDelegate.h"
 
-@implementation LTAppDelegate
+@implementation SLAppDelegate
 
 @synthesize managedObjectContext = _managedObjectContext;
 @synthesize managedObjectModel = _managedObjectModel;

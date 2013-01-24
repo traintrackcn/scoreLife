@@ -1,5 +1,5 @@
 //
-//  LTAppDelegate.h
+//  SLAppDelegate.h
 //  scoreLife
 //
 //  Created by traintrackcn on 13-1-24.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LTAppDelegate : UIResponder <UIApplicationDelegate>
+@interface SLAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
