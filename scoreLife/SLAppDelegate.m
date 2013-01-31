@@ -7,6 +7,7 @@
 //
 
 #import "SLAppDelegate.h"
+#import "SLRootViewController.h"
 
 @implementation SLAppDelegate
 
@@ -18,7 +19,15 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    [[self window] setRootViewController:[SLRootViewController sharedInstance]];
+    
+    [[SLRootViewController sharedInstance] showDashboard];
     [self.window makeKeyAndVisible];
     return YES;
 }

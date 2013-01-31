@@ -18,7 +18,37 @@
 		4AC7543216B0ED93003EE5D4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7543116B0ED93003EE5D4 /* Default@2x.png */; };
 		4AC7543416B0ED93003EE5D4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4AC7543316B0ED93003EE5D4 /* Default-568h@2x.png */; };
 		4AC7543716B0ED93003EE5D4 /* scoreLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4AC7543516B0ED93003EE5D4 /* scoreLife.xcdatamodeld */; };
+		4AEC000316BA5179002403FD /* SLCanDoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEC000116BA5179002403FD /* SLCanDoEditViewController.m */; };
+		4AEC000416BA5179002403FD /* SLCanDoEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AEC000216BA5179002403FD /* SLCanDoEditViewController.xib */; };
+		4AEC000716BA56CD002403FD /* ThingCanDo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEC000616BA56CD002403FD /* ThingCanDo.m */; };
+		4AECFFC516BA42BB002403FD /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AECFFC416BA42BB002403FD /* Profile.m */; };
+		4AECFFC816BA42BB002403FD /* ThingToDo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AECFFC716BA42BB002403FD /* ThingToDo.m */; };
+		4AECFFCC16BA42EF002403FD /* SLRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AECFFCB16BA42EF002403FD /* SLRootViewController.m */; };
+		4AECFFD516BA4427002403FD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AECFFD416BA4427002403FD /* MobileCoreServices.framework */; };
+		4AECFFD716BA4432002403FD /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AECFFD616BA4432002403FD /* libz.1.2.5.dylib */; };
+		4AECFFD916BA443D002403FD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AECFFD816BA443D002403FD /* SystemConfiguration.framework */; };
+		4AECFFDB16BA4442002403FD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AECFFDA16BA4442002403FD /* CFNetwork.framework */; };
+		4AECFFDD16BA4487002403FD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AECFFDC16BA4487002403FD /* QuartzCore.framework */; };
+		4AECFFDF16BA44A0002403FD /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AECFFDE16BA44A0002403FD /* ImageIO.framework */; };
+		4AECFFE116BA44A8002403FD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AECFFE016BA44A8002403FD /* MapKit.framework */; };
+		4AECFFE516BA45DE002403FD /* SLDashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AECFFE316BA45DE002403FD /* SLDashboardViewController.m */; };
+		4AECFFE616BA45DE002403FD /* SLDashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AECFFE416BA45DE002403FD /* SLDashboardViewController.xib */; };
+		4AECFFEA16BA462C002403FD /* SLToDoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AECFFE816BA462C002403FD /* SLToDoListViewController.m */; };
+		4AECFFEB16BA462C002403FD /* SLToDoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AECFFE916BA462C002403FD /* SLToDoListViewController.xib */; };
+		4AECFFEF16BA4653002403FD /* SLCanDoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AECFFED16BA4653002403FD /* SLCanDoListViewController.m */; };
+		4AECFFF016BA4653002403FD /* SLCanDoListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AECFFEE16BA4653002403FD /* SLCanDoListViewController.xib */; };
+		4AECFFF516BA4902002403FD /* liblibOpen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AECFFD216BA431A002403FD /* liblibOpen.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AECFFD116BA431A002403FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4AECFFCD16BA431A002403FD /* libOpen.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9680956213CD344D0014D09A;
+			remoteInfo = libOpen;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4AC7541716B0ED93003EE5D4 /* scoreLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = scoreLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +66,34 @@
 		4AC7543116B0ED93003EE5D4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4AC7543316B0ED93003EE5D4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		4AC7543616B0ED93003EE5D4 /* scoreLife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = scoreLife.xcdatamodel; sourceTree = "<group>"; };
+		4AEC000016BA5179002403FD /* SLCanDoEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLCanDoEditViewController.h; sourceTree = "<group>"; };
+		4AEC000116BA5179002403FD /* SLCanDoEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLCanDoEditViewController.m; sourceTree = "<group>"; };
+		4AEC000216BA5179002403FD /* SLCanDoEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLCanDoEditViewController.xib; sourceTree = "<group>"; };
+		4AEC000516BA56CD002403FD /* ThingCanDo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThingCanDo.h; sourceTree = "<group>"; };
+		4AEC000616BA56CD002403FD /* ThingCanDo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThingCanDo.m; sourceTree = "<group>"; };
+		4AECFFC316BA42BB002403FD /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
+		4AECFFC416BA42BB002403FD /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
+		4AECFFC616BA42BB002403FD /* ThingToDo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThingToDo.h; sourceTree = "<group>"; };
+		4AECFFC716BA42BB002403FD /* ThingToDo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThingToDo.m; sourceTree = "<group>"; };
+		4AECFFCA16BA42EF002403FD /* SLRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLRootViewController.h; sourceTree = "<group>"; };
+		4AECFFCB16BA42EF002403FD /* SLRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLRootViewController.m; sourceTree = "<group>"; };
+		4AECFFCD16BA431A002403FD /* libOpen.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libOpen.xcodeproj; path = ../libOpen/libOpen.xcodeproj; sourceTree = "<group>"; };
+		4AECFFD416BA4427002403FD /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		4AECFFD616BA4432002403FD /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		4AECFFD816BA443D002403FD /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4AECFFDA16BA4442002403FD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4AECFFDC16BA4487002403FD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4AECFFDE16BA44A0002403FD /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		4AECFFE016BA44A8002403FD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4AECFFE216BA45DE002403FD /* SLDashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLDashboardViewController.h; sourceTree = "<group>"; };
+		4AECFFE316BA45DE002403FD /* SLDashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLDashboardViewController.m; sourceTree = "<group>"; };
+		4AECFFE416BA45DE002403FD /* SLDashboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLDashboardViewController.xib; sourceTree = "<group>"; };
+		4AECFFE716BA462C002403FD /* SLToDoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLToDoListViewController.h; sourceTree = "<group>"; };
+		4AECFFE816BA462C002403FD /* SLToDoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLToDoListViewController.m; sourceTree = "<group>"; };
+		4AECFFE916BA462C002403FD /* SLToDoListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLToDoListViewController.xib; sourceTree = "<group>"; };
+		4AECFFEC16BA4653002403FD /* SLCanDoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLCanDoListViewController.h; sourceTree = "<group>"; };
+		4AECFFED16BA4653002403FD /* SLCanDoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLCanDoListViewController.m; sourceTree = "<group>"; };
+		4AECFFEE16BA4653002403FD /* SLCanDoListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLCanDoListViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +101,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AECFFF516BA4902002403FD /* liblibOpen.a in Frameworks */,
+				4AECFFE116BA44A8002403FD /* MapKit.framework in Frameworks */,
+				4AECFFDF16BA44A0002403FD /* ImageIO.framework in Frameworks */,
+				4AECFFDD16BA4487002403FD /* QuartzCore.framework in Frameworks */,
+				4AECFFDB16BA4442002403FD /* CFNetwork.framework in Frameworks */,
+				4AECFFD916BA443D002403FD /* SystemConfiguration.framework in Frameworks */,
+				4AECFFD716BA4432002403FD /* libz.1.2.5.dylib in Frameworks */,
+				4AECFFD516BA4427002403FD /* MobileCoreServices.framework in Frameworks */,
 				4AC7541C16B0ED93003EE5D4 /* UIKit.framework in Frameworks */,
 				4AC7541E16B0ED93003EE5D4 /* Foundation.framework in Frameworks */,
 				4AC7542016B0ED93003EE5D4 /* CoreGraphics.framework in Frameworks */,
@@ -59,6 +125,7 @@
 				4AC7542316B0ED93003EE5D4 /* scoreLife */,
 				4AC7541A16B0ED93003EE5D4 /* Frameworks */,
 				4AC7541816B0ED93003EE5D4 /* Products */,
+				4AECFFCD16BA431A002403FD /* libOpen.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +140,13 @@
 		4AC7541A16B0ED93003EE5D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4AECFFE016BA44A8002403FD /* MapKit.framework */,
+				4AECFFDE16BA44A0002403FD /* ImageIO.framework */,
+				4AECFFDC16BA4487002403FD /* QuartzCore.framework */,
+				4AECFFDA16BA4442002403FD /* CFNetwork.framework */,
+				4AECFFD816BA443D002403FD /* SystemConfiguration.framework */,
+				4AECFFD616BA4432002403FD /* libz.1.2.5.dylib */,
+				4AECFFD416BA4427002403FD /* MobileCoreServices.framework */,
 				4AC7541B16B0ED93003EE5D4 /* UIKit.framework */,
 				4AC7541D16B0ED93003EE5D4 /* Foundation.framework */,
 				4AC7541F16B0ED93003EE5D4 /* CoreGraphics.framework */,
@@ -84,9 +158,10 @@
 		4AC7542316B0ED93003EE5D4 /* scoreLife */ = {
 			isa = PBXGroup;
 			children = (
+				4AECFFC916BA42C8002403FD /* ViewControllers */,
+				4AECFFB316BA420B002403FD /* Models */,
 				4AC7542C16B0ED93003EE5D4 /* SLAppDelegate.h */,
 				4AC7542D16B0ED93003EE5D4 /* SLAppDelegate.m */,
-				4AC7543516B0ED93003EE5D4 /* scoreLife.xcdatamodeld */,
 				4AC7542416B0ED93003EE5D4 /* Supporting Files */,
 			);
 			path = scoreLife;
@@ -104,6 +179,49 @@
 				4AC7543316B0ED93003EE5D4 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AECFFB316BA420B002403FD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4AC7543516B0ED93003EE5D4 /* scoreLife.xcdatamodeld */,
+				4AEC000516BA56CD002403FD /* ThingCanDo.h */,
+				4AEC000616BA56CD002403FD /* ThingCanDo.m */,
+				4AECFFC616BA42BB002403FD /* ThingToDo.h */,
+				4AECFFC716BA42BB002403FD /* ThingToDo.m */,
+				4AECFFC316BA42BB002403FD /* Profile.h */,
+				4AECFFC416BA42BB002403FD /* Profile.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4AECFFC916BA42C8002403FD /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4AECFFCA16BA42EF002403FD /* SLRootViewController.h */,
+				4AECFFCB16BA42EF002403FD /* SLRootViewController.m */,
+				4AECFFE216BA45DE002403FD /* SLDashboardViewController.h */,
+				4AECFFE316BA45DE002403FD /* SLDashboardViewController.m */,
+				4AECFFE416BA45DE002403FD /* SLDashboardViewController.xib */,
+				4AECFFE716BA462C002403FD /* SLToDoListViewController.h */,
+				4AECFFE816BA462C002403FD /* SLToDoListViewController.m */,
+				4AECFFE916BA462C002403FD /* SLToDoListViewController.xib */,
+				4AECFFEC16BA4653002403FD /* SLCanDoListViewController.h */,
+				4AECFFED16BA4653002403FD /* SLCanDoListViewController.m */,
+				4AECFFEE16BA4653002403FD /* SLCanDoListViewController.xib */,
+				4AEC000016BA5179002403FD /* SLCanDoEditViewController.h */,
+				4AEC000116BA5179002403FD /* SLCanDoEditViewController.m */,
+				4AEC000216BA5179002403FD /* SLCanDoEditViewController.xib */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4AECFFCE16BA431A002403FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AECFFD216BA431A002403FD /* liblibOpen.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,12 +264,28 @@
 			mainGroup = 4AC7540C16B0ED93003EE5D4;
 			productRefGroup = 4AC7541816B0ED93003EE5D4 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4AECFFCE16BA431A002403FD /* Products */;
+					ProjectRef = 4AECFFCD16BA431A002403FD /* libOpen.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4AC7541616B0ED93003EE5D4 /* scoreLife */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4AECFFD216BA431A002403FD /* liblibOpen.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = liblibOpen.a;
+			remoteRef = 4AECFFD116BA431A002403FD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4AC7541516B0ED93003EE5D4 /* Resources */ = {
@@ -162,6 +296,10 @@
 				4AC7543016B0ED93003EE5D4 /* Default.png in Resources */,
 				4AC7543216B0ED93003EE5D4 /* Default@2x.png in Resources */,
 				4AC7543416B0ED93003EE5D4 /* Default-568h@2x.png in Resources */,
+				4AECFFE616BA45DE002403FD /* SLDashboardViewController.xib in Resources */,
+				4AECFFEB16BA462C002403FD /* SLToDoListViewController.xib in Resources */,
+				4AECFFF016BA4653002403FD /* SLCanDoListViewController.xib in Resources */,
+				4AEC000416BA5179002403FD /* SLCanDoEditViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +313,14 @@
 				4AC7542A16B0ED93003EE5D4 /* main.m in Sources */,
 				4AC7542E16B0ED93003EE5D4 /* SLAppDelegate.m in Sources */,
 				4AC7543716B0ED93003EE5D4 /* scoreLife.xcdatamodeld in Sources */,
+				4AECFFC516BA42BB002403FD /* Profile.m in Sources */,
+				4AECFFC816BA42BB002403FD /* ThingToDo.m in Sources */,
+				4AECFFCC16BA42EF002403FD /* SLRootViewController.m in Sources */,
+				4AECFFE516BA45DE002403FD /* SLDashboardViewController.m in Sources */,
+				4AECFFEA16BA462C002403FD /* SLToDoListViewController.m in Sources */,
+				4AECFFEF16BA4653002403FD /* SLCanDoListViewController.m in Sources */,
+				4AEC000316BA5179002403FD /* SLCanDoEditViewController.m in Sources */,
+				4AEC000716BA56CD002403FD /* ThingCanDo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,8 +360,13 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"../libOpen\"/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -236,8 +387,13 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "\"../libOpen\"/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -249,7 +405,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "scoreLife/scoreLife-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${inherited}";
 				INFOPLIST_FILE = "scoreLife/scoreLife-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "${inherited}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -260,7 +419,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "scoreLife/scoreLife-Prefix.pch";
+				HEADER_SEARCH_PATHS = "${inherited}";
 				INFOPLIST_FILE = "scoreLife/scoreLife-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "${inherited}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -285,6 +447,7 @@
 				4AC7543C16B0ED93003EE5D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
