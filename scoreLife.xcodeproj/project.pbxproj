@@ -20,9 +20,10 @@
 		4AC7543716B0ED93003EE5D4 /* scoreLife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4AC7543516B0ED93003EE5D4 /* scoreLife.xcdatamodeld */; };
 		4AEC000316BA5179002403FD /* SLCanDoEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEC000116BA5179002403FD /* SLCanDoEditViewController.m */; };
 		4AEC000416BA5179002403FD /* SLCanDoEditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AEC000216BA5179002403FD /* SLCanDoEditViewController.xib */; };
-		4AEC000716BA56CD002403FD /* ThingCanDo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEC000616BA56CD002403FD /* ThingCanDo.m */; };
-		4AECFFC516BA42BB002403FD /* Profile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AECFFC416BA42BB002403FD /* Profile.m */; };
-		4AECFFC816BA42BB002403FD /* ThingToDo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AECFFC716BA42BB002403FD /* ThingToDo.m */; };
+		4AEC000A16BA5E02002403FD /* SLCoreDataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEC000916BA5E02002403FD /* SLCoreDataUtil.m */; };
+		4AEC001D16BA6119002403FD /* SLThingCanDo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEC001C16BA6119002403FD /* SLThingCanDo.m */; };
+		4AEC002016BA6119002403FD /* SLProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEC001F16BA6119002403FD /* SLProfile.m */; };
+		4AEC002316BA6119002403FD /* SLThingToDo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AEC002216BA6119002403FD /* SLThingToDo.m */; };
 		4AECFFCC16BA42EF002403FD /* SLRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AECFFCB16BA42EF002403FD /* SLRootViewController.m */; };
 		4AECFFD516BA4427002403FD /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AECFFD416BA4427002403FD /* MobileCoreServices.framework */; };
 		4AECFFD716BA4432002403FD /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AECFFD616BA4432002403FD /* libz.1.2.5.dylib */; };
@@ -69,12 +70,14 @@
 		4AEC000016BA5179002403FD /* SLCanDoEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLCanDoEditViewController.h; sourceTree = "<group>"; };
 		4AEC000116BA5179002403FD /* SLCanDoEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLCanDoEditViewController.m; sourceTree = "<group>"; };
 		4AEC000216BA5179002403FD /* SLCanDoEditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SLCanDoEditViewController.xib; sourceTree = "<group>"; };
-		4AEC000516BA56CD002403FD /* ThingCanDo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThingCanDo.h; sourceTree = "<group>"; };
-		4AEC000616BA56CD002403FD /* ThingCanDo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThingCanDo.m; sourceTree = "<group>"; };
-		4AECFFC316BA42BB002403FD /* Profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profile.h; sourceTree = "<group>"; };
-		4AECFFC416BA42BB002403FD /* Profile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profile.m; sourceTree = "<group>"; };
-		4AECFFC616BA42BB002403FD /* ThingToDo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThingToDo.h; sourceTree = "<group>"; };
-		4AECFFC716BA42BB002403FD /* ThingToDo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThingToDo.m; sourceTree = "<group>"; };
+		4AEC000816BA5E02002403FD /* SLCoreDataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLCoreDataUtil.h; sourceTree = "<group>"; };
+		4AEC000916BA5E02002403FD /* SLCoreDataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLCoreDataUtil.m; sourceTree = "<group>"; };
+		4AEC001B16BA6119002403FD /* SLThingCanDo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLThingCanDo.h; sourceTree = "<group>"; };
+		4AEC001C16BA6119002403FD /* SLThingCanDo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLThingCanDo.m; sourceTree = "<group>"; };
+		4AEC001E16BA6119002403FD /* SLProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLProfile.h; sourceTree = "<group>"; };
+		4AEC001F16BA6119002403FD /* SLProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLProfile.m; sourceTree = "<group>"; };
+		4AEC002116BA6119002403FD /* SLThingToDo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLThingToDo.h; sourceTree = "<group>"; };
+		4AEC002216BA6119002403FD /* SLThingToDo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLThingToDo.m; sourceTree = "<group>"; };
 		4AECFFCA16BA42EF002403FD /* SLRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLRootViewController.h; sourceTree = "<group>"; };
 		4AECFFCB16BA42EF002403FD /* SLRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLRootViewController.m; sourceTree = "<group>"; };
 		4AECFFCD16BA431A002403FD /* libOpen.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = libOpen.xcodeproj; path = ../libOpen/libOpen.xcodeproj; sourceTree = "<group>"; };
@@ -158,6 +161,7 @@
 		4AC7542316B0ED93003EE5D4 /* scoreLife */ = {
 			isa = PBXGroup;
 			children = (
+				4AEC000B16BA5E0B002403FD /* Utils */,
 				4AECFFC916BA42C8002403FD /* ViewControllers */,
 				4AECFFB316BA420B002403FD /* Models */,
 				4AC7542C16B0ED93003EE5D4 /* SLAppDelegate.h */,
@@ -181,16 +185,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4AEC000B16BA5E0B002403FD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4AEC000816BA5E02002403FD /* SLCoreDataUtil.h */,
+				4AEC000916BA5E02002403FD /* SLCoreDataUtil.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		4AECFFB316BA420B002403FD /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				4AEC002116BA6119002403FD /* SLThingToDo.h */,
+				4AEC002216BA6119002403FD /* SLThingToDo.m */,
+				4AEC001E16BA6119002403FD /* SLProfile.h */,
+				4AEC001F16BA6119002403FD /* SLProfile.m */,
+				4AEC001B16BA6119002403FD /* SLThingCanDo.h */,
+				4AEC001C16BA6119002403FD /* SLThingCanDo.m */,
 				4AC7543516B0ED93003EE5D4 /* scoreLife.xcdatamodeld */,
-				4AEC000516BA56CD002403FD /* ThingCanDo.h */,
-				4AEC000616BA56CD002403FD /* ThingCanDo.m */,
-				4AECFFC616BA42BB002403FD /* ThingToDo.h */,
-				4AECFFC716BA42BB002403FD /* ThingToDo.m */,
-				4AECFFC316BA42BB002403FD /* Profile.h */,
-				4AECFFC416BA42BB002403FD /* Profile.m */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -313,14 +326,15 @@
 				4AC7542A16B0ED93003EE5D4 /* main.m in Sources */,
 				4AC7542E16B0ED93003EE5D4 /* SLAppDelegate.m in Sources */,
 				4AC7543716B0ED93003EE5D4 /* scoreLife.xcdatamodeld in Sources */,
-				4AECFFC516BA42BB002403FD /* Profile.m in Sources */,
-				4AECFFC816BA42BB002403FD /* ThingToDo.m in Sources */,
 				4AECFFCC16BA42EF002403FD /* SLRootViewController.m in Sources */,
 				4AECFFE516BA45DE002403FD /* SLDashboardViewController.m in Sources */,
 				4AECFFEA16BA462C002403FD /* SLToDoListViewController.m in Sources */,
 				4AECFFEF16BA4653002403FD /* SLCanDoListViewController.m in Sources */,
 				4AEC000316BA5179002403FD /* SLCanDoEditViewController.m in Sources */,
-				4AEC000716BA56CD002403FD /* ThingCanDo.m in Sources */,
+				4AEC000A16BA5E02002403FD /* SLCoreDataUtil.m in Sources */,
+				4AEC001D16BA6119002403FD /* SLThingCanDo.m in Sources */,
+				4AEC002016BA6119002403FD /* SLProfile.m in Sources */,
+				4AEC002316BA6119002403FD /* SLThingToDo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

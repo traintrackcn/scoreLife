@@ -8,6 +8,7 @@
 
 #import "SLCanDoEditViewController.h"
 #import "SLRootViewController.h"
+#import "SLCoreDataUtil.h"
 
 @interface SLCanDoEditViewController ()
 
@@ -47,6 +48,8 @@
 
 - (void)dismissPush{
      [[self navigationController] popViewControllerAnimated:YES];
+    
+//    [UIApplicationDele]
 }
 
 #pragma mark - button actions
@@ -60,6 +63,8 @@
         [[SLRootViewController sharedInstance] alertWithTitle:@"choose both title and score" message:nil];
         return;
     }
+    
+    [[SLCoreDataUtil sharedInstance] insertThingCanDoWithTitle:title score:score];
     
     LOG_DEBUG(@"save a thing can do\ntitle:%@\nscore:%d",title,score);
     [self dismissPush];

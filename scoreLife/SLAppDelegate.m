@@ -8,6 +8,7 @@
 
 #import "SLAppDelegate.h"
 #import "SLRootViewController.h"
+#import "SLCoreDataUtil.h"
 
 @implementation SLAppDelegate
 
@@ -17,9 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-
+    //init core data util;
+    [SLCoreDataUtil sharedInstance];
+    [[SLCoreDataUtil sharedInstance] setMoc:[self managedObjectContext]];
+    [[SLCoreDataUtil sharedInstance] setPsc:[self persistentStoreCoordinator]];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
@@ -29,6 +31,7 @@
     
     [[SLRootViewController sharedInstance] showDashboard];
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
@@ -86,7 +89,8 @@
     
     NSPersistentStoreCoordinator *coordinator = [self persistentStoreCoordinator];
     if (coordinator != nil) {
-        _managedObjectContext = [[NSManagedObjectContext alloc] init];
+//        _managedObjectContext = [[NSManagedObjectContext alloc] init];
+        _managedObjectContext = [[NSManagedObjectContext alloc] initWithConcurrencyType:NSMainQueueConcurrencyType];
         [_managedObjectContext setPersistentStoreCoordinator:coordinator];
     }
     return _managedObjectContext;
@@ -113,7 +117,7 @@
     }
     
     NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"scoreLife.sqlite"];
-    
+    LOG_DEBUG(@"storeURL -> %@", storeURL);
     NSError *error = nil;
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
     if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:storeURL options:nil error:&error]) {

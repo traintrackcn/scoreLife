@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SLCanDoListViewController : UIViewController
+@interface SLCanDoListViewController : UITableViewController <NSFetchedResultsControllerDelegate>
 
 @end

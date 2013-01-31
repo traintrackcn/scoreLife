@@ -1,5 +1,5 @@
 //
-//  ThingToDo.h
+//  SLThingCanDo.h
 //  scoreLife
 //
 //  Created by traintrackcn on 13-1-31.
@@ -10,11 +10,12 @@
 #import <CoreData/CoreData.h>
 
 
-@interface ThingToDo : NSManagedObject
+@interface SLThingCanDo : NSManagedObject
 
+@property (nonatomic, retain) NSString * title;
+@property (nonatomic, retain) NSNumber * score;
 @property (nonatomic, retain) NSString * key;
-@property (nonatomic, retain) NSDate * timeRemind;
-@property (nonatomic, retain) NSNumber * status;
-@property (nonatomic, retain) NSString * keyCando;
+
+- (NSString *) scoreText;
 
 @end

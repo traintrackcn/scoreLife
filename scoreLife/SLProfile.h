@@ -1,5 +1,5 @@
 //
-//  Profile.h
+//  SLProfile.h
 //  scoreLife
 //
 //  Created by traintrackcn on 13-1-31.
@@ -10,7 +10,7 @@
 #import <CoreData/CoreData.h>
 
 
-@interface Profile : NSManagedObject
+@interface SLProfile : NSManagedObject
 
 @property (nonatomic, retain) NSNumber * scoreTotal;
 
